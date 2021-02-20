@@ -47,6 +47,14 @@ public class Snack {
 
     }
 
+    // name,4.50,10,hey there
+    /*
+     *  0: name
+     *  1: 4.50
+     *  2: 20
+     *  3: hey there
+     *
+     * */
     public Snack(String csv) {
         String[] values = csv.split(",");
 
